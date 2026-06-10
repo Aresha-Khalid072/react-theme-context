@@ -2,14 +2,16 @@
 A beginner-friendly React project demonstrating Context API for global theme management (light/dark mode) without prop drilling.
 
 📁 Project Structure
+```
 src/
 ├── components/
-│   ├── Navbar.jsx       # Main navbar, applies theme class
-│   ├── Nav2.jsx         # Nav links, reads theme from context
-│   └── Button.jsx       # Triggers theme change
+│   ├── Navbar.jsx         # Main navbar — applies light/dark class
+│   ├── Nav2.jsx           # Nav links — reads theme from context
+│   └── Button.jsx         # Button — triggers theme toggle
 ├── context/
-│   └── ThemeContext.jsx  # Context provider — global theme state
-└── App.jsx
+│   └── ThemeContext.jsx   # Context provider — holds global theme state
+└── App.jsx                # Root component
+```
 
 ⚙️ How It Works
 
